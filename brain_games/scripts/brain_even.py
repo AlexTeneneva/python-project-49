@@ -6,6 +6,7 @@ from brain_games import even
 
 
 def main ():
+    cli.welcome_user()
     even.even()
 
 if __name__ == '__main__':
