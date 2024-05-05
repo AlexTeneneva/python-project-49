@@ -1,9 +1,17 @@
 import random
-from brain_games import cli
+import prompt
+
+
+def welcome_user():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    return name
 
 
 def even ():
-  index = 0  
+  index = 0
+  name = welcome_user()
   print('Answer "yes" if the number is even, otherwise answer "no".')
 
   while index < 3: 
@@ -20,6 +28,6 @@ def even ():
       else:
         return print(answer + " is wrong answer ;(. Correct answer was 'no'. Let's try again")
     index+=1
-  print("Congratulation, " + cli.name)
+  print("Congratulation, " + name + "!")
 
-even ()
+
