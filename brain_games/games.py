@@ -48,10 +48,10 @@ def game():
 
     while index < 3:
         print("Question: " + expression)
-        answer = input("Your answer: ")
+        answer = prompt.string("Your answer: ")
         if answer == correct_answer:
             print("Correct!")
-        elif answer != correct_answer:
+        else:
             return print(
                 answer + " is wrong answer ;(. Correct answer was " + str(correct_answer) + ". Let's try again")
         index += 1
