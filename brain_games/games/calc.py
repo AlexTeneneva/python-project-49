@@ -1,3 +1,5 @@
+import random
+
 def data():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
@@ -6,4 +8,3 @@ def data():
     correct_answer = eval(expression)
     question = "What is the result of the expression?"
     return expression, correct_answer, question
-
