@@ -8,4 +8,4 @@ def data():
     number2 = random.randint(1, 100)
     expression = f"{number1} {number2}"
     correct_answer = str(math.gcd(number1, number2))
-    return question, expression, correct_answer
+    return expression, correct_answer, question
