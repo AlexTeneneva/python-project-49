@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import random
+from brain_games.game import game_engine
+from brain_games.games import progression
+
+
+def main():
+    game_engine(progression)
+
+
+if __name__ == '__main__':
+    main()
