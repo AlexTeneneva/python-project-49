@@ -5,6 +5,14 @@
 
 [![asciicast](https://https://asciinema.org/a/hMf2UfQUzIpKF6YdNs1z4R51N.svg)](https://https://asciinema.org/a/hMf2UfQUzIpKF6YdNs1z4R51N)
 
+
+brain-calc
 [![asciicast](https://asciinema.org/a/O9hXBnNLzBqPvhYeFh5Ciz14k.svg)](https://asciinema.org/a/O9hXBnNLzBqPvhYeFh5Ciz14k)
 
+
+brain-gcd:
 [![asciicast](https://asciinema.org/a/Y4sRuljJEhHSf1pVi3TdEBfDN.svg)](https://asciinema.org/a/Y4sRuljJEhHSf1pVi3TdEBfDN)
+
+
+brain-progression: 
+[![asciicast](https://asciinema.org/a/hgxgZZ3KWkp2z7u84KE6FWf8e.svg)](https://asciinema.org/a/hgxgZZ3KWkp2z7u84KE6FWf8e)

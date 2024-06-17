@@ -21,9 +21,3 @@ def data():
     question = 'What number is missing in the progression?'
     return expression, correct_answer, question
 
-
-def main ():
-  even ()
-
-if __name__ == '__main__':
-    main()
