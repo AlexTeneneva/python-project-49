@@ -28,6 +28,6 @@ def even ():
       else:
         return print(answer + " is wrong answer ;(. Correct answer was 'no'. Let's try again")
     index+=1
-  print("Congratulation, " + name + "!")
+  print("Congratulations, " + name + "!")
 
 
