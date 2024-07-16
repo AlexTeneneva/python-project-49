@@ -11,9 +11,10 @@ def welcome_user():
 def game_engine(game):
     name = welcome_user()
     index = 0
+    print(calc.question)
     while index < 3:
         expression, correct_answer, question = game.data()
-        print(f"{question}: {expression}")
+        print(f"{'Question'}: {expression}")
         answer = prompt.string("Your answer: ")
         if answer == str(correct_answer):
           print("Correct!")

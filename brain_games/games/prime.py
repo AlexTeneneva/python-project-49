@@ -1,4 +1,4 @@
-import random
+мimport random
 
 
 def Check_Prime(n):
