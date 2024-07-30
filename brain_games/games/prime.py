@@ -1,6 +1,6 @@
 import random
 
-question = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def Check_Prime(n):
     d = 2
     while n % d != 0:
