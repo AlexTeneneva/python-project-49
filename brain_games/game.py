@@ -13,7 +13,7 @@ def game_engine(game):
     index = 0
     print(game.question)
     while index < 3:
-        expression, correct_answer, question = game.data()
+        expression, correct_answer = game.data()
         print(f"{'Question'}: {expression}")
         answer = prompt.string("Your answer: ")
         if answer == str(correct_answer):

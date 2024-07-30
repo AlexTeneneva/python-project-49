@@ -1,5 +1,6 @@
 import random
 
+question = 'What number is missing in the progression?'
 
 def create_progression(start, step, length):
     progression = []
@@ -18,6 +19,5 @@ def data():
     correct_answer = progression.pop(hide_symbol_index)
     progression.insert(hide_symbol_index, '..')
     expression = ' '.join(progression)
-    question = 'What number is missing in the progression?'
-    return expression, correct_answer, question
 
+    return expression, correct_answer
