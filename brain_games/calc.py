@@ -1,3 +1,4 @@
+import random
 question = "What is the result of the expression?"
 
 
