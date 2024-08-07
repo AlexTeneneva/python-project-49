@@ -1,6 +1,8 @@
 import random
 
 question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def Check_Prime(n):
     if n <= 1:
         return False
@@ -9,13 +11,8 @@ def Check_Prime(n):
             return False
     return True
 
+
 def data():
     expression = random.randint(1, 100)
     correct_answer = 'yes' if Check_Prime(expression) else 'no'
     return expression, correct_answer
-
-
-# if Check_Prime(expression):
-#    correct_answer = 'yes'
-#else:
-#    correct_answer = 'no'

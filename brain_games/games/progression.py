@@ -2,6 +2,7 @@ import random
 
 question = 'What number is missing in the progression?'
 
+
 def create_progression(start, step, length):
     progression = []
     for _i in range(length):
