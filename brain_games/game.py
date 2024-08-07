@@ -1,5 +1,3 @@
-import prompt
-
 def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -16,15 +14,9 @@ def game_engine(game):
         print(f"{'Question'}: {expression}")
         answer = prompt.string("Your answer: ")
         if answer == str(correct_answer):
-          print("Correct!")
+            print("Correct!")
         else:
-          print(f"{answer} is the wrong answer ;(. Correct answer was {correct_answer}. Let's try again, {name}!")
-          return
+            print(f"{answer} is the wrong answer ;(. Correct answer was {correct_answer}. Let's try again, {name}!")
+            return
         index += 1
     print(f"Congratulations, {name}!")
-
-    #def main():
-        #game_engine()
-
-    #if __name__ == '__main__':
-        #main()
