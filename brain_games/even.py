@@ -22,14 +22,14 @@ def even():
             print("Correct!")
         elif number % 2 == 0 and answer != "yes":
             return print(f"{answer} is wrong answer ;(."
-                f" Correct answer was 'yes'."
-                f" Let's try again, {name}!")
+                        f" Correct answer was 'yes'."
+                        f" Let's try again, {name}!")
         else:
             if number % 2 != 0 and answer == "no":
                 print("Correct!")
             else:
                 return print(f"{answer} is wrong answer ;(."
-                    f" Correct answer was 'yes'."
-                    f" Let's try again, {name}!")
+                            f" Correct answer was 'yes'."
+                            f" Let's try again, {name}!")
         index += 1
     print("Congratulations, " + name + "!")
