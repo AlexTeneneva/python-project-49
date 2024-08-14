@@ -19,7 +19,8 @@ def game_engine(game):
         if answer == str(correct_answer):
             print("Correct!")
         else:
-            print(f"{answer} is wrong answer ;(."
+            print(
+                f"{answer} is wrong answer ;(."
                 f" Correct answer was 'yes'."
                 f" Let's try again, {name}!")
             return
