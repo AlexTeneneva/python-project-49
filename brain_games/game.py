@@ -24,4 +24,5 @@ def game_engine(game):
                 f" Let's try again, {name}!")
             break
         print("Correct!")
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
