@@ -4,7 +4,7 @@ import math
 question = 'Find the greatest common divisor of given numbers.'
 
 
-def data():
+def get_data():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     expression = f"{number1} {number2}"

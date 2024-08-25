@@ -12,7 +12,7 @@ def Check_Prime(n):
     return True
 
 
-def data():
+def get_data():
     expression = random.randint(1, 100)
     correct_answer = 'yes' if Check_Prime(expression) else 'no'
     return expression, correct_answer

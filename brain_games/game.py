@@ -1,5 +1,7 @@
 import prompt
 
+round_count = 3
+
 
 def welcome_user():
     print('Welcome to the Brain Games!')
@@ -10,19 +12,16 @@ def welcome_user():
 
 def game_engine(game):
     name = welcome_user()
-    index = 0
     print(game.question)
-    while index < 3:
-        expression, correct_answer = game.data()
+    for i in range(round_count):
+        expression, correct_answer = game.get_data()
         print(f"{'Question'}: {expression}")
         answer = prompt.string("Your answer: ")
-        if answer == str(correct_answer):
-            print("Correct!")
-        else:
+        if answer != str(correct_answer):
             print(
                 f"{answer} is wrong answer ;(."
-                f" Correct answer was 'yes'."
+                f" Correct answer was {correct_answer}."
                 f" Let's try again, {name}!")
-            return
-        index += 1
+            break
+        print("Correct!")
     print(f"Congratulations, {name}!")

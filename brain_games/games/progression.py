@@ -11,7 +11,7 @@ def create_progression(start, step, length):
     return progression
 
 
-def data():
+def get_data():
     start = random.randint(1, 99)
     step = random.randint(1, 10)
     length = random.randint(8, 10)
