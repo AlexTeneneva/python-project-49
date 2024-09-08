@@ -1,24 +1,16 @@
 import random
 
-question = 'What number is missing in the progression?'
+QUESTION = 'What number is missing in the progression?'
 
 
-def create_progression(start, step, length):
-    progression = []
-    for _i in range(length):
-        progression.append(str(start))
-        start += step
-    return progression
-
-
-def get_data():
+def get_question_and_answer():
     start = random.randint(1, 99)
     step = random.randint(1, 10)
     length = random.randint(8, 10)
-    progression = create_progression(start, step, length)
-    hide_symbol_index = random.randint(0, len(progression) - 1)
-    correct_answer = progression.pop(hide_symbol_index)
-    progression.insert(hide_symbol_index, '..')
-    expression = ' '.join(progression)
+    stop = start + step * length
+    progression = list(range(start, stop, step))
+    hide_symbol_index = random.randrange(length)
+    correct_answer, progression[hide_symbol_index] = progression[hide_symbol_index], '..'
+    expression = ' '.join([str(x) for x in progression])
 
     return expression, correct_answer

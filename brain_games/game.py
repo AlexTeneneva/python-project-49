@@ -12,9 +12,9 @@ def welcome_user():
 
 def game_engine(game):
     name = welcome_user()
-    print(game.question)
-    for i in range(round_count):
-        expression, correct_answer = game.get_data()
+    print(game.QUESTION)
+    for _ in range(round_count):
+        expression, correct_answer = game.get_question_and_answer()
         print(f"{'Question'}: {expression}")
         answer = prompt.string("Your answer: ")
         if answer != str(correct_answer):

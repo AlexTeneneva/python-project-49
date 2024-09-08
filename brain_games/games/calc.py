@@ -1,9 +1,9 @@
 import random
 
-question = "What is the result of the expression"
+QUESTION = "What is the result of the expression"
 
 
-def get_data():
+def get_question_and_answer():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])

@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "This is 5 logical games"
 authors = ["Alexandra <a.teneneva@gmail.com>"]
+license = "Aleksandra Teneneva"
 readme = "README.md"
 packages = [
   { include = "brain_games" },

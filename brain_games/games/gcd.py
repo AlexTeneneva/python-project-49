@@ -1,10 +1,10 @@
 import random
 import math
 
-question = 'Find the greatest common divisor of given numbers.'
+QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_data():
+def get_question_and_answer():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     expression = f"{number1} {number2}"
